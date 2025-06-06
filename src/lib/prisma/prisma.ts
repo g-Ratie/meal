@@ -2,7 +2,7 @@
 
 import { neonConfig } from "@neondatabase/serverless";
 import { PrismaNeon } from "@prisma/adapter-neon";
-import { PrismaClient } from "@prisma/client";
+import { PrismaClient } from "@prisma/client/edge";
 import { WebSocket } from "ws";
 
 // Example Supabase pooled connection string (must use Supavisor)
